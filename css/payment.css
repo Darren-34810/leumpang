@@ -1,0 +1,162 @@
+.body-section {
+    padding-top: 4.8rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+}
+
+.separator-top {
+    border-top: 2px solid #C3C3C3;
+}
+
+.separator-bottom {
+    border-bottom: 2px solid #C3C3C3;
+}
+
+#phase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#phase #steps {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#phase #steps .step {
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#phase #steps .step.filled {
+    background-color: #000;
+    color: #fff;
+}
+
+#phase #steps .line {
+    border-top: 2px solid #000;
+    border-radius: 1px;
+    width: 6rem;
+}
+
+#phase #steps-details {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#phase #steps-details .detail {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    width: 9rem;
+    margin-bottom: 0;
+}
+
+#phase .disabled {
+    opacity: 25%;
+}
+
+#payment-section .payment-form {
+    padding: 1.5rem 1rem;
+}
+
+#payment-section .payment-form h6,
+#payment-section .payment-form p {
+    margin-bottom: 0;
+}
+
+#payment-section .payment-form label {
+    display: block;
+    color: #A0A0A0;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+#payment-section .payment-form input,
+#payment-section .payment-form select {
+    accent-color: #ffc639;
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    padding: 6px 8px;
+}
+
+#payment-section .payment-form input:not([type='date']) {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=step] {
+  -moz-appearance: textfield;
+}
+
+#payment-section .payment-form .btn {
+    background-color: #ffc639;
+    border: 2px solid #ffc639;
+    border-radius: 500px;
+    width: 10rem;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+}
+
+#payment-section .payment-form .btn:hover,
+#payment-section .payment-form .btn:active {
+    background-color: #fff8db;
+    color: #ffc639;
+}
+
+#payment-section .payment-form .payment-methods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#payment-section .payment-form .payment-methods .payment-method-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#payment-section .payment-form .payment-methods .payment-method {
+    background-color: #fff;
+    border: 1px solid #C3C3C3;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#payment-section .payment-form .payment-methods .payment-method img {
+    width: 100%;
+}
+
+#payment-section .payment-form .payment-total p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
