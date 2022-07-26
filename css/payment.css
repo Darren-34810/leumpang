@@ -148,10 +148,17 @@ input[type=step] {
     overflow: hidden;
     margin-bottom: 1rem;
     text-align: center;
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #payment-section .payment-form .payment-methods .payment-method img {
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 #payment-section .payment-form .payment-total p {
