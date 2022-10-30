@@ -1,0 +1,37 @@
+.left{
+    width: 50%;
+}
+.ls-14{
+    letter-spacing: 14px;
+}
+.ls-28{
+    letter-spacing: 28px;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.w-75{
+    width: 75%
+}
+.p-12{
+    padding: 12px;
+}
+.p-16{
+    padding: 16px;
+}
+.p-32{
+    padding: 32px;
+}
+.filter{
+    background-color: #F4F4F4BA !important;
+}
+.r-30{
+    border-radius: 30px;
+}
+.profile{
+    border-radius: 50%;
+    width: 100%;
+}
