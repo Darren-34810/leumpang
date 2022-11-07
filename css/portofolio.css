@@ -35,3 +35,8 @@
     border-radius: 50%;
     width: 100%;
 }
+
+.element-item img{
+    object-fit: cover;
+    min-block-size: -webkit-fill-available;
+}
