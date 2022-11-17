@@ -40,3 +40,12 @@
     object-fit: cover;
     min-block-size: -webkit-fill-available;
 }
+.link{
+    display: flex;
+}
+.link p{
+    margin: auto;
+}
+.link img{
+    width: 10%;
+}
